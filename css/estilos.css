@@ -56,15 +56,25 @@ header {
     z-index: 1;
     display: flex;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .logo a {
+    background-color: #fc6625;
     text-decoration: none;
-    padding: 5px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 0px rgba(255, 123, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
 }
 
 .logo img {
- height: 45px;
+ height: 40px;
 }
 
 /* aca termina el header */
@@ -164,8 +174,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
     justify-content: center;
+    height: 80vh;
     margin-top: 70px;
 }
 
@@ -175,9 +185,27 @@ header {
 }
 
 .hero-text h2 {
-    padding: 10px;
+    padding-bottom: 10px;
     font-weight: 900;
-    /* background-color: #000000; */
+    font-size: 36px;
+}
+
+.desc-text{
+    width: 400px;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc-text h3{
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .small-galery {
@@ -252,13 +280,14 @@ header {
     padding: 10px 15px;
     margin-top: 10px;
     text-decoration: none;
-
+    box-shadow: 0px 0px 10px 0px rgba(255, 123, 0, 0.75);
 }
 
 .button .btn {
     text-transform: uppercase;
     line-height: 1.4;
     letter-spacing: 0.2em;
+    font-weight: 400;
     font-size: 12px;
     text-align: center;
     font-family: 'Raleway';
@@ -366,10 +395,11 @@ form{
     max-width: 340px;
     background-color: #fc6625;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .title-form{
-    color: #4d4747;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1.1;
@@ -381,7 +411,7 @@ form{
 }
 
 .label-form{
-    color: #4d4747;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     line-height: 1.1;
@@ -393,7 +423,7 @@ form{
 }
 
 .form-control {
-    border-radius: 0;
+    border-radius: 5px;
     border: none;
     margin-bottom: 20px;
 }
@@ -412,6 +442,8 @@ form{
     font-family: 'Raleway';
     color: #fafafa;
     border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .btn-contacto:hover {
@@ -494,9 +526,17 @@ form{
         justify-content: center;
     }
 
+    .logo{
+        padding-bottom: 0px;
+    }
+
     .logo a {
         text-decoration: none;
         padding-top: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-start;
     }
       
 }
