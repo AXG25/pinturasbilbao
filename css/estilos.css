@@ -73,6 +73,11 @@ header {
     flex-direction: row;
 }
 
+.logo a:hover {
+    scale: 1.1;
+    animation: ease-in-out;
+}
+
 .logo img {
  height: 40px;
 }
@@ -157,7 +162,7 @@ header {
     width: 100%;
     height: 100vh; 
     overflow: hidden;
-    background: linear-gradient(rgba(167, 167, 167, 0.415), rgba(169, 169, 169, 0.8)), url(https://res.cloudinary.com/axginterprise/image/upload/v1684009257/outsite-co-R-LK3sqLiBw-unsplash_oazc7i.jpg) no-repeat center;
+    background: linear-gradient(rgba(167, 167, 167, 0.415), rgba(169, 169, 169, 0.8)), url(https://res.cloudinary.com/axiever/image/upload/v1691598270/im1_1_fss2rb.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     align-items: flex-start;
@@ -184,7 +189,7 @@ header {
     /* background-color: #000000; */
 }
 
-.hero-text h2 {
+.hero-text h1 {
     padding-bottom: 10px;
     font-weight: 900;
     font-size: 36px;
