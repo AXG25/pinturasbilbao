@@ -12,8 +12,8 @@ const cotizar = (event) => {
     event.preventDefault();
     console.log(nombreUsuario.value);
     if (nombreUsuario.value !== "" && direccionUsuario.value !== "" && telefonoUsario.value !== "" && ubicacionUsario.value !== "") {
-        const email = 'axiever.guejia@gmail.com'; // Cambiar por la dirección de correo del destinatario
-        const subject = 'Quiero hacer una cotizacion'; // Asunto del correo
+        const email = 'miguel.andrade1996@hotmail.com'; // Cambiar por la dirección de correo del destinatario
+        const subject = 'Quiero solicitar un presupuesto'; // Asunto del correo
 
         let mensaje = `Hola, mi nombre es ${nombreUsuario.value}.`;
         mensaje += `\n\nTe escribo desde el correo: ${direccionUsuario.value}.`;
